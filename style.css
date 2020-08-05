@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 25px;
+  color: #444140;
+  background-image: url("images/background.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+div {
+  width: 700px;
+  margin: 20px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow 2px, 2px, 3px, #FFFFFF;
+  color: #444140;
+  border-radius: 12px;
+}
+
+
+.card {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.visit {
+  width: 100px;
+}
+
+.fa-facebook {
+  color: #DFC2F2;
+  opacity: 0.8;
+}
+
+.fa-linkedin {
+  color: #DFC2F2;
+  opacity: 0.8;
+}
+/*img {
+  ;
+}
+
+h1 {
+  font-size: 50px;
+    padding: 20px;
+}*/
+
+button {
+  margin: 12px;
+  background-color: #DFC2F2;
+  color: #FFFFFF;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 20px;
+
+}
+
+p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+/*
+.button {
+  width: auto;
+              display: flex;
+            justify-content: center;
+            align-items: center;*/
+
+
+button:hover {
+opacity: 0.7;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+/*.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+*/
+
+.list-inline >li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.list-inline {
+  margin-top: -20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+
